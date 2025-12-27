@@ -7,7 +7,7 @@ project:
     - name: Steven Li
       # orcid: https://orcid.org/0000-0002-8713-2343
   # license:
-  description: A Jupyter Book exploring the journey from artificial neural networks to large language models and chatbots.
+  # description:
   # keywords: []
   github: https://github.com/teenytinynn/from-neuron-to-chat
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
@@ -15,7 +15,7 @@ project:
     - file: README.md
     - title: 神经元网络
       children:
-        - title: MLP多层感知机
+        - title: 多层感知机
           children:
             - file: neural-networks/01-multi-layer-perceptron/01-linear-prediction.ipynb
             - file: neural-networks/01-multi-layer-perceptron/02-mean-squared-error.ipynb
@@ -26,7 +26,7 @@ project:
             - file: neural-networks/01-multi-layer-perceptron/07-epoch.ipynb
             - file: neural-networks/01-multi-layer-perceptron/08-hidden-layer.ipynb
             - file: neural-networks/01-multi-layer-perceptron/09-activation-function.ipynb
-        - title: Neural Network Framework
+        - title: 神经元网络框架
           children:
             - file: neural-networks/02-neural-network-framework/01-tensor.ipynb
             - file: neural-networks/02-neural-network-framework/02-linear.ipynb
@@ -37,7 +37,7 @@ project:
             - file: neural-networks/02-neural-network-framework/07-model.ipynb
             - file: neural-networks/02-neural-network-framework/08-multi-layer.ipynb
             - file: neural-networks/02-neural-network-framework/09-relu.ipynb
-        - title: Convolutional Neural Network
+        - title: 卷积神经元网络
           children:
             - file: neural-networks/03-convolutional-neural-network/01-mnist.ipynb
             - file: neural-networks/03-convolutional-neural-network/02-flatten.ipynb
@@ -46,7 +46,7 @@ project:
             - file: neural-networks/03-convolutional-neural-network/05-convolution.ipynb
             - file: neural-networks/03-convolutional-neural-network/06-pool.ipynb
             - file: neural-networks/03-convolutional-neural-network/07-ce-loss.ipynb
-        - title: Recurrent Neural Network
+        - title: 循环神经元网络
           children:
             - file: neural-networks/04-recurrent-neural-network/01-encoding.ipynb
             - file: neural-networks/04-recurrent-neural-network/02-embedding.ipynb
@@ -54,10 +54,13 @@ project:
             - file: neural-networks/04-recurrent-neural-network/04-recurrent.ipynb
             - file: neural-networks/04-recurrent-neural-network/05-lstm.ipynb
             - file: neural-networks/04-recurrent-neural-network/06-adam.ipynb
-    - title: Large Language Models
+    - title: 大语言模型
       children:
         - title: Word Embedding
           children:
             - file: large-language-models/01-word-embedding/01-encode-decode.ipynb
 site:
   template: book-theme
+  options:
+    favicon: favicon.ico
+    logo: logo.png
