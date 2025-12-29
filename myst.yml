@@ -15,17 +15,17 @@ project:
     - file: README.md
     - title: 神经元网络
       children:
-        - title: 多层感知机
+        - title: 多层神经元网络
           children:
-            - file: neural-networks/01-multi-layer-perceptron/01-linear-prediction.ipynb
-            - file: neural-networks/01-multi-layer-perceptron/02-mean-squared-error.ipynb
-            - file: neural-networks/01-multi-layer-perceptron/03-gradient-descent.ipynb
-            - file: neural-networks/01-multi-layer-perceptron/04-learning-rate.ipynb
-            - file: neural-networks/01-multi-layer-perceptron/05-iteration.ipynb
-            - file: neural-networks/01-multi-layer-perceptron/06-batch.ipynb
-            - file: neural-networks/01-multi-layer-perceptron/07-epoch.ipynb
-            - file: neural-networks/01-multi-layer-perceptron/08-hidden-layer.ipynb
-            - file: neural-networks/01-multi-layer-perceptron/09-activation-function.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/01-linear-prediction.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/02-mean-squared-error.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/03-gradient-descent.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/04-learning-rate.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/05-iteration.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/06-batch.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/07-epoch.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/08-hidden-layer.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/09-activation-function.ipynb
         - title: 神经元网络框架
           children:
             - file: neural-networks/02-neural-network-framework/01-tensor.ipynb
