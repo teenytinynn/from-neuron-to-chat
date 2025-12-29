@@ -17,7 +17,7 @@ project:
       children:
         - title: 多层神经元网络
           children:
-            - file: neural-networks/01-multi-layer-neural-network/01-linear-prediction.ipynb
+            - file: neural-networks/01-multi-layer-neural-network/01-linear-regression.ipynb
             - file: neural-networks/01-multi-layer-neural-network/02-mean-squared-error.ipynb
             - file: neural-networks/01-multi-layer-neural-network/03-gradient-descent.ipynb
             - file: neural-networks/01-multi-layer-neural-network/04-learning-rate.ipynb
