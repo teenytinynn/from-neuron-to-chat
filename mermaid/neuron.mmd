@@ -1,0 +1,22 @@
+flowchart LR
+    classDef in fill:#E3F2FD,stroke:#2196F3,stroke-width:2px;
+    classDef para fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px;
+    classDef act fill:#E1BEE7,stroke:#9C27B0,stroke-width:2px;
+    classDef func fill:#F8BBD0,stroke:#E91E63,stroke-width:2px;
+    classDef out fill:#DCEDC8,stroke:#8BC34A,stroke-width:2px;
+    classDef skip stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5;
+
+    X1[x<sub>1</sub>]:::in
+    X2[x<sub>2</sub>]:::in
+    M1((*)):::act
+    M2((*)):::act
+    W1(w<sub>1</sub>):::para
+    W2(w<sub>2</sub>):::para
+    S((Σ)):::act
+    A{"f(x)"}:::func
+    Y[y]:::out
+
+    X1 --> M1 --> W1
+    X2 --> M2 --> W2
+    W1 --> S --> A --> Y
+    W2 --> S
