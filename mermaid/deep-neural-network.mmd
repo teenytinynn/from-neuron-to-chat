@@ -8,31 +8,22 @@ flowchart LR
 
     X1((x<sub>1</sub>)):::in
     X2((x<sub>2</sub>)):::in
-    M1("H<sub>1</sub>"):::para
-    M2("H<sub>2</sub>"):::para
-    M3("H<sub>3</sub>"):::para
-    M4("H<sub>4</sub>"):::para
-    W1((m<sub>1</sub>)):::act
-    W2((m<sub>2</sub>)):::act
-    W3((m<sub>3</sub>)):::act
-    W4((m<sub>4</sub>)):::act
-    M5("O"):::para
+    H1["H<sub>1</sub>"]:::para
+    H2["H<sub>2</sub>"]:::para
+    H3["H<sub>3</sub>"]:::para
+    H4["H<sub>4</sub>"]:::para
+    M1((m<sub>1</sub>)):::act
+    M2((m<sub>2</sub>)):::act
+    M3((m<sub>3</sub>)):::act
+    M4((m<sub>4</sub>)):::act
+    O["O"]:::para
     Y((y)):::out
 
-    X1 --> M1
-    X1 --> M2
-    X1 --> M3
-    X1 --> M4
-    X2 --> M1
-    X2 --> M2
-    X2 --> M3
-    X2 --> M4
-    M1 --> W1
-    M2 --> W2
-    M3 --> W3
-    M4 --> W4
-    W1 --> M5
-    W2 --> M5
-    W3 --> M5
-    W4 --> M5
-    M5 --> Y
+    X1 --> H1 --> M1 --> O --> Y
+    X1 --> H2 --> M2 --> O
+    X1 --> H3 --> M3 --> O
+    X1 --> H4 --> M4 --> O
+    X2 --> H1
+    X2 --> H2
+    X2 --> H3
+    X2 --> H4
