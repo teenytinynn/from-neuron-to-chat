@@ -6,8 +6,5 @@ flowchart LR
     classDef out fill:#DCEDC8,stroke:#8BC34A,stroke-width:2px;
     classDef skip stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5;
 
-    X1((x<sub>1</sub>)):::in --> M1[*]:::model --> W1[[w<sub>1</sub>]]:::model
-    X2((x<sub>2</sub>)):::in --> M2[*]:::model --> W2[[w<sub>2</sub>]]:::model
-
-    W1 --> S[Σ]:::model --> A{"f(x)"}:::test --> P((p)):::out
-    W2 --> S
+    od((d<sub>2</sub>)):::data --> B2["backward()"]:::model --> W2[[w<sub>2</sub>]]:::model
+    hd((d<sub>1</sub>)):::data --> B1["backward()"]:::model --> W1[[w<sub>1</sub>]]:::model
