@@ -208,3 +208,8 @@ __marimo__/
 
 # MyST build outputs
 _build
+
+# Datasets
+/datasets/*.csv
+/datasets/*.npz
+/datasets/*.txt
