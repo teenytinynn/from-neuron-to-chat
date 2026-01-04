@@ -39,35 +39,24 @@ project:
             - file: neural-networks/02-neural-network-framework/09-relu.ipynb
         - title: 卷积神经元网络
           children:
-            - file: neural-networks/03-convolutional-neural-network/01-mnist.ipynb
-            - file: neural-networks/03-convolutional-neural-network/02-flatten.ipynb
-            - file: neural-networks/03-convolutional-neural-network/03-dropout.ipynb
-            - file: neural-networks/03-convolutional-neural-network/04-tanh-sigmoid-softmax.ipynb
-            - file: neural-networks/03-convolutional-neural-network/05-convolution.ipynb
-            - file: neural-networks/03-convolutional-neural-network/06-pool.ipynb
-            - file: neural-networks/03-convolutional-neural-network/07-ce-loss.ipynb
+            - file: neural-networks/03-convolutional-neural-network/*.ipynb
         - title: 循环神经元网络
           children:
-            - file: neural-networks/04-recurrent-neural-network/01-encoding.ipynb
-            - file: neural-networks/04-recurrent-neural-network/02-embedding.ipynb
-            - file: neural-networks/04-recurrent-neural-network/03-word2vec.ipynb
-            - file: neural-networks/04-recurrent-neural-network/04-recurrent.ipynb
-            - file: neural-networks/04-recurrent-neural-network/05-lstm.ipynb
-            - file: neural-networks/04-recurrent-neural-network/06-adam.ipynb
+            - file: neural-networks/04-recurrent-neural-network/*.ipynb
     - title: 大语言模型
       children:
         - title: 分词器
           children:
-            - file: large-language-models/01-tokenizer/01-encode-decode.ipynb
+            - file: large-language-models/01-tokenizer/*.ipynb
         - title: 自注意力机制
           children:
-            - file: large-language-models/02-self-attention/01-encode-decode.ipynb
+            - file: large-language-models/02-self-attention/*.ipynb
         - title: 预训练
           children:
-            - file: large-language-models/03-pretraining/01-encode-decode.ipynb
+            - file: large-language-models/03-pretraining/*.ipynb
         - title: 监督微调
           children:
-            - file: large-language-models/04-fine-tuning/01-encode-decode.ipynb
+            - file: large-language-models/04-fine-tuning/*.ipynb
 site:
   template: book-theme
   options:
