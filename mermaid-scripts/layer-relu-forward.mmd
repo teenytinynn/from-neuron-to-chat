@@ -6,7 +6,7 @@ flowchart LR
     classDef out fill:#DCEDC8,stroke:#8BC34A,stroke-width:2px;
     classDef skip stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5;
 
-    od((d<sub>2</sub>)):::data --> B2["backward()"]:::model --> W2[[w<sub>2</sub>, b<sub>2</sub>]]:::model
-    M((h)):::data --> B2
-    hd((d<sub>1</sub>)):::data --> B1["backward()"]:::model --> W1[[w<sub>1</sub>, b<sub>1</sub>]]:::model
-    x((x)):::in --> B1
+    X((x)):::in --> H["forward()"]:::model --> R["relu()"]:::model --> M((h)):::data
+    M--> O["forward()"]:::model --> P((p)):::out
+    W1[[w<sub>1</sub>, b<sub>1</sub>]]:::model --> H
+    W2[[w<sub>2</sub>, b<sub>2</sub>]]:::model --> O
