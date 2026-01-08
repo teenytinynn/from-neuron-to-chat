@@ -39,7 +39,13 @@ project:
             - file: neural-networks/02-neural-network-framework/09-relu.ipynb
         - title: 卷积神经元网络
           children:
-            - file: neural-networks/03-convolutional-neural-network/*.ipynb
+            - file: neural-networks/03-convolutional-neural-network/01-mnist.ipynb
+            - file: neural-networks/03-convolutional-neural-network/02-flatten.ipynb
+            - file: neural-networks/03-convolutional-neural-network/03-dropout.ipynb
+            - file: neural-networks/03-convolutional-neural-network/04-tanh-sigmoid-softmax.ipynb
+            - file: neural-networks/03-convolutional-neural-network/05-convolution.ipynb
+            - file: neural-networks/03-convolutional-neural-network/06-pool.ipynb
+            - file: neural-networks/03-convolutional-neural-network/07-ce-loss.ipynb
         - title: 循环神经元网络
           children:
             - file: neural-networks/04-recurrent-neural-network/*.ipynb
