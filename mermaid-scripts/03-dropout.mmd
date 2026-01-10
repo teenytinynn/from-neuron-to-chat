@@ -1,0 +1,47 @@
+block-beta
+classDef transparent fill:white,stroke:white
+classDef in fill:#E3F2FD,stroke:#2196F3,stroke-width:2px;
+classDef model fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px;
+classDef data fill:#E1BEE7,stroke:#9C27B0,stroke-width:2px;
+classDef test fill:#F8BBD0,stroke:#E91E63,stroke-width:2px;
+classDef out fill:#DCEDC8,stroke:#8BC34A,stroke-width:2px;
+classDef skip stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5;
+columns 7
+block:image:3
+    columns 3
+    x1["&nbsp;"]
+    x2["&nbsp;"]
+    x3["0"]
+    x4["0"]
+    x5["&nbsp;"]
+    x6["&nbsp;"]
+    x7["&nbsp;"]
+    x8["0"]
+    x9["&nbsp;"]
+end
+block:transfer:1
+    columns 1
+    space
+    arrow1<["&nbsp;"]>(right)
+    space
+end
+block:flatten:3
+    columns 3
+    y1["1"]
+    y2["2"]
+    y3["0"]
+    y4["0"]
+    y5["5"]
+    y6["6"]
+    y7["7"]
+    y8["0"]
+    y9["9"]
+
+end
+
+class x1,x2,x5,x6,x7,x9 skip
+class x3,x4,x8,y3,y4,y8 skip
+class y1,y2 in
+class y5,y6 data
+class y7,y9 out
+class image,transfer,flatten transparent
