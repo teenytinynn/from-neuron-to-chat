@@ -48,8 +48,8 @@ project:
             - file: neural-networks/03-convolutional-neural-network/07-pool.ipynb
         - title: 循环神经元网络
           children:
-            - file: neural-networks/04-recurrent-neural-network/01-encoding.ipynb
-            - file: neural-networks/04-recurrent-neural-network/02-embedding.ipynb
+            - file: neural-networks/04-recurrent-neural-network/01-one-hot.ipynb
+            - file: neural-networks/04-recurrent-neural-network/02-word-bag.ipynb
             - file: neural-networks/04-recurrent-neural-network/03-word2vec.ipynb
             - file: neural-networks/04-recurrent-neural-network/04-recurrent.ipynb
             - file: neural-networks/04-recurrent-neural-network/05-lstm.ipynb
