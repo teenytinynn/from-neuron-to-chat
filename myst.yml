@@ -13,9 +13,9 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: README.md
-    - title: 神经元网络
+    - title: 深度神经网络
       children:
-        - title: 多层神经元网络
+        - title: 多层神经网络
           children:
             - file: neural-networks/01-multi-layer-neural-network/01-linear-regression.ipynb
             - file: neural-networks/01-multi-layer-neural-network/02-mean-squared-error.ipynb
@@ -26,7 +26,7 @@ project:
             - file: neural-networks/01-multi-layer-neural-network/07-epoch.ipynb
             - file: neural-networks/01-multi-layer-neural-network/08-hidden-layer.ipynb
             - file: neural-networks/01-multi-layer-neural-network/09-activation-function.ipynb
-        - title: 神经元网络框架
+        - title: 神经网络框架
           children:
             - file: neural-networks/02-neural-network-framework/01-tensor.ipynb
             - file: neural-networks/02-neural-network-framework/02-linear.ipynb
@@ -37,7 +37,7 @@ project:
             - file: neural-networks/02-neural-network-framework/07-model.ipynb
             - file: neural-networks/02-neural-network-framework/08-multi-layer.ipynb
             - file: neural-networks/02-neural-network-framework/09-relu.ipynb
-        - title: 卷积神经元网络
+        - title: 卷积神经网络
           children:
             - file: neural-networks/03-convolutional-neural-network/01-mnist.ipynb
             - file: neural-networks/03-convolutional-neural-network/02-flatten.ipynb
@@ -46,7 +46,7 @@ project:
             - file: neural-networks/03-convolutional-neural-network/05-ce-loss.ipynb
             - file: neural-networks/03-convolutional-neural-network/06-convolution.ipynb
             - file: neural-networks/03-convolutional-neural-network/07-pool.ipynb
-        - title: 循环神经元网络
+        - title: 循环神经网络
           children:
             - file: neural-networks/04-recurrent-neural-network/01-one-hot.ipynb
             - file: neural-networks/04-recurrent-neural-network/02-word-bag.ipynb
