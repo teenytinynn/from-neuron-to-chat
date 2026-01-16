@@ -6,8 +6,8 @@ flowchart LR
     classDef out fill:#DCEDC8,stroke:#8BC34A,stroke-width:2px;
     classDef skip stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5;
 
-    P((p)):::out --> L["loss()"]:::model --> e((e)):::data
-    e --> G1["gradient()"]:::model --> od((d<sub>2</sub>)):::data
+    P((p)):::out --> L["loss()"]:::model --> l((l)):::data
+    l --> G1["gradient()"]:::model --> od((d<sub>2</sub>)):::data
     od --> G2["gradient_backward()"]:::model --> RB["relu_backward()"]:::model --> hd((d<sub>1</sub>)):::data
     Y((y)):::in --> L
     W2[[w<sub>2</sub>]]:::model --> G2
