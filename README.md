@@ -33,3 +33,7 @@
 * Python基本知识：可以使用NumPy完成矢量计算。
 * 机器学习基本知识：可以理解线性回归、分类等基本算法。
 
+## 📖 电子书
+
+[从人工神经元到聊天机器人 - 电子书](https://teenytinynn.github.io/from-neuron-to-chat/)
+
