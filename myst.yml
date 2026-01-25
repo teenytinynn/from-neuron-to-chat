@@ -68,6 +68,11 @@ project:
         - title: 监督微调
           children:
             - file: large-language-models/04-fine-tuning/*.ipynb
+    - title: 多模态模型
+      children:
+        - title: 视觉编码器
+          children:
+            - file: multimodal-models/01-vision-encoders/*.ipynb
 site:
   template: book-theme
   options:
